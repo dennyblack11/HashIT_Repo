@@ -182,6 +182,7 @@ const Button = styled.div`
   border-radius: 6px;
   color: black;
   color: white;
+  /* margin-top: 20px; */
   font-size: 15px;
   @media (max-width: 320px) {
     width: 280px;
@@ -202,11 +203,13 @@ const Input = styled.div`
   background-color: white;
   border-radius: 6px;
   padding-left: 10px;
-  /* margin: 30px 0;  */
+  margin: 30px 0; 
   border: 2px solid grey;
 
   @media (max-width: 320px) {
     width: 270px;
+    /* margin-bottom: 30px; */
+
   }
 
   input {
